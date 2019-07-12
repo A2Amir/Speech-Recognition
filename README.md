@@ -30,7 +30,7 @@
 When recording with microphone, the signals are stored in a digitized form. But to work upon it, the machine needs them in the discrete numeric form. Hence, we should perform sampling at a certain frequency and convert the signal into the discrete numerical form
 The Fourier transform takes a signal in the time domain (i.e., a set of measurements over time) and turns it into a spectrum—a set of frequencies with corresponding values. The spectrum does not contain any information about time! 
 
-![alt text][image1]
+[image1]
 
 The DFT functionality in SciPy lives in the scipy.fftpack module. Among other things, it provides the following DFT-related functionality:
 
@@ -72,7 +72,7 @@ The DFT is also used to perform fast convolutions of large inputs by scipy.signa
 This is the most important step in building a speech recognizer because after converting the speech signal into the frequency domain, we must convert it into the usable form of feature vector. 
 We can use different feature extraction techniques like MFCC, PLP, PLP-RASTA etc.
 
-#Speech Recognition Packages
+# Speech Recognition Packages
 
 A handful of packages for speech recognition exist on PyPI. A few of them include: apiai assemblyai google-cloud-speech pocketsphinx SpeechRecognition watson-developer-cloud wit Some of these packages—such as wit and apiai—offer built-in features, like natural language processing for identifying a speaker’s intent, which go beyond basic speech recognition. Others, like google-cloud-speech, focus solely on speechto- text conversion.
 	 The Effect of Noise on Speech Recognition
