@@ -11,7 +11,7 @@
 
 [//]: # (Image References)
 
-[image1]:  ./Speech-Recognition/1.PNG  "Frequency versus Time Domain"
+[image1]:  ../Speech-Recognition/1.PNG  "Frequency versus Time Domain"
 
 
 # The goals of this project are the following:
