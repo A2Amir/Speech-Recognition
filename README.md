@@ -30,7 +30,10 @@
 When recording with microphone, the signals are stored in a digitized form. But to work upon it, the machine needs them in the discrete numeric form. Hence, we should perform sampling at a certain frequency and convert the signal into the discrete numerical form
 The Fourier transform takes a signal in the time domain (i.e., a set of measurements over time) and turns it into a spectrum—a set of frequencies with corresponding values. The spectrum does not contain any information about time! 
 
-![image1](1.PNG)
+<p align="center">
+  ![image1](1.PNG)
+</p>
+
 
 The DFT functionality in SciPy lives in the scipy.fftpack module. Among other things, it provides the following DFT-related functionality:
 
