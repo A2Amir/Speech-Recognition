@@ -84,3 +84,4 @@ A handful of packages for speech recognition exist on PyPI. A few of them includ
 	    wit
 
 Some of these packages—such as wit and apiai—offer built-in features, like natural language processing for identifying a speaker’s intent. Others, like google-cloud-speech, focus solely on speechto- text conversion.In this project I am going to focus on the working With Microphones,effect of Noise on Speech Recognition.
+
